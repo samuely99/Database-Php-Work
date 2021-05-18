@@ -1,0 +1,34 @@
+<Html>
+<Head>
+<Style Type="text/css">
+</Style>
+</Head>
+<Table Border=0 cellPadding=10 Width=100%>
+<Tr>
+<Td BGColor="820DE7" Align=Center VAlign=top Width=17%> </Td>
+<Td BGColor="FFFFFF" Align=Left VAlign=Top Width=83%>
+<H1>This html script shows how to generate results for simple queries.</H1>
+<p>The following button finds the student(s) with the highest GPA.</p>
+<p>The associated SQL code is the following:
+<em> Select S.Name, S.Id From Student S
+Where S.GPA >= (Select Max(S1.GPA)
+From Student S1)</em></p>
+<Form Method="post" Action="highestGPA.php">
+<BR><BR>
+<Input Type="submit" Name="submit" Value="Highest GPA">
+</Form>
+<hr><hr>
+<p>The following button finds the student(s) with the lowest GPA.</p>
+<p>The associated SQL code is the following:
+<em> Select S.Name, S.Id From Student S
+Where S.GPA <= (Select Min(S1.GPA)
+From Student S1)</em></p>
+<Form Method="post" Action="lowestGPA.php">
+<BR><BR>
+<Input Type="submit" Name="submit" Value="Lowest GPA">
+</Form>
+</Td>
+</Tr>
+</Table>
+</Body>
+</Html>

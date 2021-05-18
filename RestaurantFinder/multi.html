@@ -1,0 +1,72 @@
+
+<Html>
+<head>
+<Style Type="text/css">
+<!--
+  Body, P, TD  {color: blue; font-family: verdana; font-size: 10 pt}
+H1 {color: red; font-family: arial; font-size:12 pt}
+-->
+</Style>
+</head>
+
+<body>
+ <Table Border=0 cellPadding=10 Width=100%>
+  <Tr>
+   <Td BGColor="F0F8FF" Align=Center VAlign=top Width=150> </Td>
+   <Td BGColor="FFFFFF" Align=Left VAlign=Top Width=83%>
+
+   <H1>Restaurant Finder <br> (multiple checkboxes with arrays)</H1>
+     <p>Select one or more of the following cultures of food, and  we'll tell you which restaurant, closest to Plymouth,NH, to go<BR>to get that food. </p>
+   
+     <Form Method="post" Action="radio.php">
+       <table>
+          <tr>
+             <td><input type="checkbox"
+                        name="exercise[0]" value="1">&nbsp; Soul Food<td>
+          </tr><tr>
+             <td><input type="checkbox"
+                        name="exercise[1]" value="1">&nbsp; Italian<td>
+          </tr><tr>
+
+             <td><input type="checkbox"
+                        name="exercise[2]" value="1">&nbsp; Mexican <td>
+          </tr><tr>
+
+             <td><input type="checkbox"
+                        name="exercise[3]" value="1">&nbsp; Indian<td>
+		  </tr><tr>
+
+             <td><input type="checkbox"
+                        name="exercise[4]" value="1">&nbsp; Thai<td>
+		  </tr><tr>
+
+             <td><input type="checkbox"
+                        name="exercise[5]" value="1">&nbsp; Seafood<td>
+		  </tr><tr>
+
+             <td><input type="checkbox"
+                        name="exercise[6]" value="1">&nbsp; Cajun<td>
+		  </tr><tr>
+
+             <td><input type="checkbox"
+                        name="exercise[7]" value="1">&nbsp; Japanese<td>
+		  </tr><tr>
+
+             <td><input type="checkbox"
+                        name="exercise[8]" value="1">&nbsp; American<td>						
+          </tr><tr>
+                 <td>&nbsp;</td>
+          </tr>
+          <tr>
+             <td><input type="submit"
+                        name="submit" value="I AM HUNGRY!"></td>
+          </tr>
+      </table>
+     </Form>
+   </Td>
+  </Tr>
+ </Table>   
+
+</body>
+
+</Html>
