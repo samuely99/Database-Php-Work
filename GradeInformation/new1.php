@@ -15,7 +15,6 @@ $grades=array('01'=>array(),'23'=>array(),
 '45'=>array(),'67'=>array(),'89'=>array());
 //Populating the grade info
 
-
 $grades['01']['Name']="Andy Anderson";
 $grades['23']['Name']="Brenda Blue";
 $grades['45']['Name']="Connor Cool";
@@ -37,9 +36,6 @@ $grades['45']['Avg']= (90 + 82)/2;
 $grades['67']['Avg']= (70 + 74)/2;
 $grades['89']['Avg']= (67 + 70)/2;
 
-
-
-//Each value of $name is associated with an array, $gradeinfo
 foreach($grades as $name => $gradeinfo)
 {
 
