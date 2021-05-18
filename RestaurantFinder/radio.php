@@ -3,7 +3,7 @@
 $name_array=array(
    0=>"Soul",
    1=>'Italian',
-   3=>'Mexican',
+   2=>'Mexican',
    3=>'Indian',
    4=>'Thai',
    5=>'Sea',
